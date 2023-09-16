@@ -1,4 +1,4 @@
-# Prosel-CimatecJr
+# Prosel-CimatecJr 2023.2
   O projeto CIMATEC Bank (CBank) consiste em uma landing page e uma login page sobre um banco fictício da instituição Senai CIMATEC. 
 Nele, como usuário você acaba por ter algumas vantagens, como a possibilidade de conta pessoal e conta de negócios, além da área de
 investimento através da plataforma. Além de poder conectar-se a instituição através da sua conta google ou apple e email tradiconal.
