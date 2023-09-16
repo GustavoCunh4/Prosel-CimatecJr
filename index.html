@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="M-assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat?query=montserrat">
+    <link rel="shortcut icon" href="M-assets/imgs/favicon.ico" type="image/x-icon">
+    <title>CBANK</title>
+</head>
+<body>
+    <header id="header">
+        <h1 id = "name">CBank</h1>
+
+        <nav id = "menu">
+            <ul>
+                <li><a href = "#"><button type="submit" class= "menu-button">Criar Conta</button></a></li>
+                <li><a href = "login.html"><button type="submit" class= "menu-button">Login</button></a></li>
+                <li><a href = "#about"><button type="submit" class= "menu-button" id = "sobre">Sobre</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id = "main">
+        <div id = "title-main">
+            <h2>Serviços e Benefícios</h2>
+        </div>
+
+        <div class = "carrousel-container">
+            <div class = "carrousel-slides">
+                <button id = "prev-button"><img src="M-assets/imgs/arrow.png" alt="Seta esquerda"></button>
+                <div class="carrousel-images">
+                    <img src="M-assets/imgs/b2b.png" alt="B2B" class = "slider on">
+                    <img src="M-assets/imgs/b2c.png" alt="B2C" class = "slider">
+                    <img src="M-assets/imgs/invest.png" alt="Investment" class = "slider">
+                </div> 
+                <button id = "next-button"><img src="M-assets/imgs/arrow.png" alt="Seta direita"></button>   
+            </div>
+        </div>
+
+        <div id="account">
+            <div class = "account-type">
+                <h2>Personal Account</h2>
+                <img id="personal-account" src="M-assets/imgs/personal.png" alt="Personal Account">
+        </div>
+           
+
+            <div class = "account-type">
+                <h2>Business Account</h2>
+                <img id="business-account" src="M-assets/imgs/business.png" alt="Business Account">
+            </div>
+        </div>
+
+            <dialog id = "personal-dialog">
+                <div class = "modal-information">
+                    <button id = "personal-back">Voltar</button>
+                    <h3>Conta Pessoal</h3>
+                    <ul>
+                        <li>3% de CashBack em qualquer compra na instituição Senai CIMATEC</li>
+                        <li>Desconto em itens da atlética</li>
+                        <li>Concorrer a prêmios de até R$ 1000,00</li>
+                    </ul>
+                    <a target="_blank" href="login.html"><button id="cadastro-modal-personal">Cadastrar-se</button></a>
+                </div>
+            </dialog>
+
+            <dialog id = "business-dialog">
+                <div class="modal-information">
+                    <button id="business-back">Voltar</button>
+                    <h3>Conta Empresarial</h3>
+                    <ul>
+                        <li>Transações criptografadas para segurança das suas informações</li>
+                        <li>Desconto de até 5% em pagamentos contratuais usando o nosso app</li>
+                        <li>Disponibilização de nossos colaboradores para estágio em empresas parceiras</li>
+                    </ul>
+                    <a target="_blank" href = "login.html"><button id="cadastro-modal-business">Cadastrar-se</button></a>
+                    </div>
+            </dialog>
+
+
+        <div id = "about">
+            <h2>Sobre nós</h2>
+            <p>
+                Fundada em 2023 pelo futuro membro da Empresa CIMATEC Junior, o CIMATEC Bank,
+                mais conhecido como CB, foi criado para tornar mais dinâmico, eficiente e 
+                confiável as transações financeiras feitas pela Empresa.
+            </p>
+            <p>
+                Nosso intuito, além de ser um banco autoral do Senai CIMATEC, vem como começo
+                de um novo rumo da instituição, focada não apenas na tecnologia, mas na combinação
+                da mesma com a área financeira.
+            </p>
+            <p>
+                <b>VIEMOS PARA INOVAR O MUNDO, JUNTE-SE A NÓS TAMBÉM!</b>
+            </p>
+        </div>
+    </main>
+
+    <footer id = "footer">
+        <div id = "footer-main">
+            <h2>CBank</h2>
+            <span><b>Venha conosco fazer parte de um novo mundo!</b></span>
+        </div>
+
+        <div id = "footer-inf">
+            <div id = "footer-location">
+                <span><b>Endereço: </b>Av Orlando Gomes 1845 Piatã Bahia</span>
+                <span>2023 CBank S.A CNPJ: 99.999.999/9999-99</span>
+            </div>
+            <div id = "footer-contato">
+                <span><b>Email: </b>Cbank@gmail.com</span>
+                <span><b>Telefone/WhatsApp: (71) 99999-9999</b></span>
+            </div>
+
+
+            <div id ="footer-imgs">
+                <span><b>Redes Sociais:</b></span>
+                <a target = "_blank" href = "https://www.instagram.com/"><img src="M-assets/imgs/instagram.png" alt="Instagram"></a>
+                <a target = "_blank" href = "https://www.tiktok.com/"><img src="M-assets/imgs/tiktok.png" alt="tiktok"></a>
+                <a target = "_blank" href = "https://www.tiktok.com/"><img src="M-assets/imgs/twitter.png" alt="twitter"></a>
+            </div>
+        </div>
+
+    </footer>
+    <script src="M-assets/js/script.js"></script>
+</body>
+</html>

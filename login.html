@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat?query=montserrat">
+    <link rel="shortcut icon" href="M-assets/imgs/favicon.ico" type="image/x-icon">
+    <title>CBank</title>
+</head>
+<body>
+    <main id="main">
+        <form id="form">
+            <a href = "index.html"><button type="button" id="back-main-page"><img src ="assets/imgs/arrow-login.png"></button></a>
+            <div id="card-header">
+                <h1>CBank</h1>
+            </div>
+
+            <div id="accounts-type">
+                <a href="#"><img src="assets/imgs/google.png" alt="Google"></a>
+                <a href="#"><img src="assets/imgs/apple.png" alt="Apple"></a>
+            </div>
+
+            <div id="inputs">
+
+                <div class="input-box"></div>
+                    <label for = "name">
+                        Email
+                        <div class = "input-form">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type = "email" id = "email" name= "email">
+                        </div>
+                    </label>
+
+                <div class="input-box"></div>
+                    <label for = "password">
+                        Password
+                        <div class = "input-form">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type = "password" id = "password" name = "password">
+                        </div>
+                    </label>
+                    <div id="forgot-password">
+                        <a href = "#">Esqueceu sua senha?</a>
+                    </div>
+            </div>
+
+            <button type="submit" id= "login-button">Login</button>
+        </form>
+    </main>
+</body>
+</html>
